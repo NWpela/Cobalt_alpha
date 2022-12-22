@@ -14,15 +14,17 @@ matplotlib.use('Qt5Agg')
 
 DATA_PATH = "D:/nw-trading/Cobalt/Data/"
 
+
 # --- Parameters Definition ---
 
 FILE_TRAIN = "BTCEUR_5m_2019_10_01_2022_10_01_TRAIN_v1.csv"
 FILE_TEST = "BTCEUR_5m_2022_10_02_2022_12_15_TEST_v1.csv"
 N_OFFSET_TRAIN = 30000
 N_TRAIN = 5000
-N_TEST = 500
+N_TEST = 50
 EWA_WINDOW = 10
 SCALAR_WINDOW = 20
+
 
 # --- Data Loading, Indicators, Normalisation and baselines ---
 
